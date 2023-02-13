@@ -9,8 +9,9 @@ function SearchExercises() {
  
   const  handleSearch = async () => {
     if(search) {
-      const exerciseData = await fetchData
-      ('https://exercisedb.p.rapidapi.com/exercises/bodyPartList', exerciseOptions);
+      const exercisesData = await fetchData
+      ('https://zylalabs.com/api/392/exercise+database+api/313/list+of+all+exercise' , exerciseOptions);
+      console.log(exercisesData);
     }
   }
   
